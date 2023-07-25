@@ -16,9 +16,6 @@ body {
   background-color: #b6acec;
 }
 
-
-
-
 .container {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -30,11 +27,16 @@ body {
   justify-content: center;
 
   box-sizing: content-box;
-  background-image: linear-gradient(to bottom, #ffe6ff, #ffe8ff, #ffe9ff, #ffebff, #ffecff);
+  background-image: linear-gradient(
+    to bottom,
+    #ffe6ff,
+    #ffe8ff,
+    #ffe9ff,
+    #ffebff,
+    #ffecff
+  );
   box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
-
-
 
 .container button {
   padding: 10px 0;
@@ -47,7 +49,14 @@ body {
 }
 
 .dictionary {
-  background-image: linear-gradient(to bottom, #f7ffff, #f5fdfd, #f4fafb, #f2f8f9, #f1f6f7);
+  background-image: linear-gradient(
+    to bottom,
+    #f7ffff,
+    #f5fdfd,
+    #f4fafb,
+    #f2f8f9,
+    #f1f6f7
+  );
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
@@ -63,7 +72,14 @@ body {
 }
 
 .avl-tree {
-  background-image: linear-gradient(to bottom, #f7ffff, #f5fdfd, #f4fafb, #f2f8f9, #f1f6f7);
+  background-image: linear-gradient(
+    to bottom,
+    #f7ffff,
+    #f5fdfd,
+    #f4fafb,
+    #f2f8f9,
+    #f1f6f7
+  );
   background-color: #fff;
   border: 1px solid #bbb9b9;
   border-radius: 5px;
@@ -73,7 +89,14 @@ body {
 }
 
 .actions {
-  background-image: linear-gradient(to bottom, #e1e8ec, #e1e8eb, #e1e8eb, #e1e7ea, #e1e7ea);
+  background-image: linear-gradient(
+    to bottom,
+    #e1e8ec,
+    #e1e8eb,
+    #e1e8eb,
+    #e1e7ea,
+    #e1e7ea
+  );
   background-color: #ffffff;
   width: 90vmin;
   position: absolute;
@@ -86,13 +109,13 @@ body {
 }
 
 .actions h1 {
-
   color: #fff;
   padding: 20px;
-  text-align: center
+  text-align: center;
 }
 
 .Action-box {
+  margin: 10px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -106,7 +129,6 @@ body {
   outline: none;
   border-bottom: 3px solid #ae9cff;
   font-size: 16px;
-
 }
 
 .Action-box button {
