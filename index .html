@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>AVL Tree Dictionary</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
+<head>
+  <title>AVL Tree Dictionary</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-  <body>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <div class="layout">
     <div class="container">
       <div class="dictionary">
         <h2>Dictionary</h2>
         <div id="avlTree" class="avl-tree"></div>
         <div>
-          <input
-            type="text"
-            id="searchInput"
-            placeholder="Enter word to search"
-          />
+          <input type="text" id="searchInput" placeholder="Enter word to search" />
           <button onclick="searchWord()">Search</button>
         </div>
       </div>
@@ -42,11 +34,7 @@
         <button onclick="addWord()">Add Word</button>
       </div>
       <div class="Action-box">
-        <input
-          type="text"
-          id="removeInput"
-          placeholder="Enter word to remove"
-        />
+        <input type="text" id="removeInput" placeholder="Enter word to remove" />
         <button onclick="removeWord()">Remove</button>
       </div>
 
@@ -57,8 +45,11 @@
 
       <div class="result" id="result"></div>
     </div>
+  </div>
 
-    <script src="avltree.js"></script>
-    <script src="dicsrt.js"></script>
-  </body>
+
+  <script src="avltree.js"></script>
+  <script src="dicsrt.js"></script>
+</body>
+
 </html>
